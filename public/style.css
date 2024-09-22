@@ -23,13 +23,15 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 47px 100px 0;
+    margin: 37px 105px 0;
 }
+
 
 .nav-center {
     display: flex;
-    gap: 60px;
+    gap: 40px;
     font-family: "Poppins", sans-serif;
+    font-weight: 500;
 }
 
 .nav-center > a {
@@ -39,13 +41,13 @@ nav {
 
 .nav-right {
     display: flex;
-    gap: 15px;
+    gap: 13px;
     align-items: center;
 }
 
 .nav-right-l {
     display: flex;
-    gap: 40px;
+    gap: 35px;
 }
 
 .contact-btn {
