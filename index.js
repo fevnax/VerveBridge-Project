@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-    res.render("partials/header.ejs");
+    res.render("home.ejs");
 });
 
 app.listen(port, () => {

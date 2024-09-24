@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Poppins Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Inter Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background: rgb(250, 250, 250);
-  background: linear-gradient(
-    90deg,
-    rgba(250, 250, 250, 1) 0%,
-    rgba(252, 252, 252, 1) 100%
-  );
+    background: rgb(250, 250, 250);
+    background: linear-gradient(90deg,
+            rgba(250, 250, 250, 1) 0%,
+            rgba(252, 252, 252, 1) 100%);
 }
 
 span {
@@ -26,22 +27,25 @@ nav {
     margin: 37px 105px 0;
 }
 
-
 .nav-center {
     display: flex;
-    gap: 40px;
+    gap: 60px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
+    font-size: 18px;
+    /* font-weight: 500; */
+    line-height: 30px;
+    text-align: left;
 }
 
-.nav-center > a {
+.nav-center>a {
     color: #272727;
     text-decoration: none;
 }
 
 .nav-right {
     display: flex;
-    gap: 13px;
+    gap: 40px;
     align-items: center;
 }
 
@@ -52,4 +56,65 @@ nav {
 
 .contact-btn {
     margin-top: 3px;
+}
+
+.nav-break {
+    height: 49px;
+}
+
+.container {
+    display: flex;
+    margin: 0 105px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left {
+    font-family: "Inter", sans-serif;
+    margin-top: 90px;
+    align-content: center;
+    max-width: 50%;
+}
+
+.hero-left>h1 {
+    font-size: 46px;
+}
+
+.hero-left>p {
+    font-size: 18px;
+}
+
+.hero-left>.hero-right {
+    max-width: 50%;
+}
+
+.hero-left-d {
+    display: flex;
+    gap: 10px;
+    margin-left: -25px;
+    /* justify-content: start; */
+    align-items: center;
+    /* align-content: center; */
+}
+
+.circle {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-top: -38px;
+    margin-left: 10px;
+    box-shadow: 6px 27px 34px 0px #0000001a;
+}
+
+.circle > svg {
+    /* position: absolute; */
+    margin: 18px 0 0 18px;
+}
+
+.hero-banner {
+    width: 100%;
 }
